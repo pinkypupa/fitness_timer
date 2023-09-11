@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>timer for cirle training</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <!-- мне нужен контейнер для круга. внутри него будет просто один p наверно. и потом
+ещё кнопка начать, которая станет пауза когда мы нажали старт 
+и кнопка продолжить когда мы нажали пауза 
+но начнём просто с того чтобы оно считалось 
+может потом ещё указать в качестве модалки сколько нам надо кругов запустить -->
+
+    <!-- здесь класс contrast отвечает за время отдыха -->
+    <div class="circle">
+        <div class="circle__wrapper">
+            <p class="circle__text counter">5</p>
+            <div class="cloud-wrapper">
+                <div class="main-cloud"></div>
+                <button class="circle__button start">Начать</button>
+                <div class="cloud one"></div>
+                <div class="cloud two"></div>
+                <div class="cloud three"></div>
+                <div class="cloud four"></div>
+                <div class="cloud five"></div>
+                <div class="cloud six"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
